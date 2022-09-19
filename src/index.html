@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="img/site-icon.png">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="flex-wrapper">
+            <section class="section-wrapper">
+                <section class="search-section">
+                    <header class="pokedex-title">
+                        <h2>POKÉDEX</h2>
+                    </header>
+                    <form type="submit" class="search-form">  
+                        <header>
+                            <h4>Type the Pokémon name</h4>
+                        </header>
+                        <section class="inputs-form">
+                            <input type="text" class="type-pokemon" aria-label="Input here the name of the Pokémon you want to search about">
+                            <button type="submit" class="btn-search" aria-label="Click here to search the Pokémon information">Search</button>
+                        </section>
+                    </form>
+                </section>
+                <section class="pokemon-image"></section>
+            </section>
+            <section class="results-wrapper">
+                <header class="pokemon-title"></header>
+                <section class="error-title"></section>
+                <section class="pokemon-tabs"></section>
+                <section class="pokemon-about"></section>
+                <section class="pokemon-base-stats">
+                    <section class="pokemon-hp"></section>
+                    <section class="pokemon-atk"></section>
+                    <section class="pokemon-def"></section>
+                    <section class="pokemon-spatk"></section>
+                    <section class="pokemon-spdef"></section>
+                    <section class="pokemon-spd"></section>
+                </section>
+                <section class="pokemon-evolution"></section>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
