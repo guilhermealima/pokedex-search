@@ -46,7 +46,7 @@ class pokemonData {
 
 const getSpeciesUrl = 'https://pokeapi.co/api/v2/pokemon-species/'
 const getPokemonUrl = 'https://pokeapi.co/api/v2/pokemon/';
-const errorImageUrl = './img/error-mark.png';
+const errorImageUrl = 'src/img/error-mark.png';
 
 let uiTabAbout;
 let uiTabStats;
